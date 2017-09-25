@@ -12,5 +12,5 @@ clust=clusters.hcluster(data)
 
 kclust = clusters.kcluster(data, k=10)
 
-print([rownames[r] for r in k[0]])
-print([rownames[r] for r in k[1]])
+print([blognames[r] for r in kclust[0]])
+print([blognames[r] for r in kclust[1]])
